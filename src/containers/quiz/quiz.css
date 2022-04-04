@@ -1,0 +1,19 @@
+.quiz__title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  text-shadow: 0 0 13px rgba(78, 74, 74, 0.781);
+}
+.quiz .container {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(116, 199, 105),
+    rgb(53, 148, 40)
+  );
+  padding: 40px 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 12px rgba(41, 38, 38, 0.575);
+}

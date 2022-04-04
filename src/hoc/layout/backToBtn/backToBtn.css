@@ -1,0 +1,21 @@
+.backBatton {
+  text-align: end;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.backBatton__btn {
+  cursor: pointer;
+  padding: 5px 7px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(79, 148, 102);
+  border: 1px solid rgb(134, 43, 43);
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgb(71, 61, 61);
+  transition: all 0.2s linear;
+}
+.backBatton__btn:hover {
+  box-shadow: 0 2px 5px rgb(71, 61, 61);
+  transition: all 0.2s linear;
+}

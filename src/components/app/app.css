@@ -1,0 +1,14 @@
+.wrap {
+  max-width: 900px;
+  height: 520px;
+  border: 2px solid white;
+  border-radius: 7px;
+  box-shadow: 0 0 12px rgba(51, 47, 47, 0.842);
+  margin: 25px auto;
+  background-color: rgb(32, 164, 187);
+}
+.title__app {
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 7px rgba(56, 54, 54, 0.877);
+}

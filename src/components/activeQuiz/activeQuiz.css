@@ -1,0 +1,18 @@
+.active-quiz {
+  position: relative;
+}
+.active-quiz__title {
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px 10px rgb(78, 74, 74);
+}
+.active-quiz__position {
+  position: absolute;
+  right: 0;
+  font-weight: bold;
+  color: white;
+  border: 2px solid rgb(150, 49, 49);
+  padding: 4px 7px;
+  border-radius: 7px;
+}

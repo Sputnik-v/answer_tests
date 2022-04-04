@@ -1,0 +1,24 @@
+.active-quiz__li {
+  color: white;
+  font-size: 17px;
+  border: 1px solid rgb(150, 49, 49);
+  padding: 5px 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: green;
+  transition: background-color 0.2s ease-in-out;
+}
+.active-quiz__li:hover {
+  background-color: rgba(27, 173, 27, 0.74);
+  box-shadow: 0 2px 4px rgba(56, 51, 51, 0.795);
+  transition: background-color box-shadow 0.2s ease-in-out;
+}
+.success {
+  border-color: rgba(19, 91, 184, 0.637);
+  border-width: 2px;
+}
+.error {
+  border-color: rgba(102, 12, 12, 0.808);
+  border-width: 2px;
+}

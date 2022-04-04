@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  text-align: center;
+}
+.header__list-btn {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.btn {
+  padding: 7px 13px;
+  cursor: pointer;
+  margin-right: 3px;
+  border: 1px solid white;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  transition: all 0.2s linear;
+}
+.btn:hover {
+  opacity: 0.6;
+  transition: all 0.2s linear;
+}
+.header__btn-rus {
+  background-color: green;
+}
+.header__btn-geography {
+  background-color: red;
+}
+.header__btn-matematics {
+  background-color: rgb(114, 19, 143);
+}
+.header__btn-history {
+  background-color: rgb(169, 196, 20);
+}
+.header__btn-flora-fauna {
+  background-color: rgb(202, 114, 14);
+}
