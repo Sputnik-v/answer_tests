@@ -9,7 +9,7 @@ const Layout = (props) => {
         return (
             <div>
                 <Quiz textBtn={props.textBtn}/>
-                <BackToBtn/>
+                <BackToBtn onBack={props.onBack}/>
             </div>
         )
   

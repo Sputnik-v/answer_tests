@@ -1,13 +1,19 @@
-import React from "react";
+import React, {Component} from "react";
 import './backToBtn.css';
 
-const BackToBtn = () => {
+class BackToBtn extends Component{
 
-    return (
-        <div className="backBatton">
-            <button className="backBatton__btn">Back to Home</button>
-        </div>
-    )
+
+    render() {
+
+        return (
+            <div className="backBatton">
+                <button onClick={this.props.onBack} className="backBatton__btn">Back to Tests</button>
+            </div>
+        )
+
+    }
+    
 
 }
 

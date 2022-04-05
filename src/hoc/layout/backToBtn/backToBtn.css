@@ -10,8 +10,8 @@
   font-weight: bold;
   color: white;
   background-color: rgb(79, 148, 102);
-  border: 1px solid rgb(134, 43, 43);
-  border-radius: 5px;
+  border: 1px solid rgb(33, 54, 15);
+  border-radius: 3px;
   box-shadow: 0 3px 10px rgb(71, 61, 61);
   transition: all 0.2s linear;
 }

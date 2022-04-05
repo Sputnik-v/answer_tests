@@ -21,6 +21,13 @@ class App extends Component {
             isTextBtn: targ
         })
     }
+
+    onBack = () => {
+        this.setState({
+            isLayout: false,
+            isMain: true
+        })
+    }
  
 
     render() {
@@ -31,7 +38,7 @@ class App extends Component {
                 <h1 className="title__app">This is my app for victorine</h1>
                 <div className="wrap">
                     {this.state.isLayout ? null : <Header onIsState={this.onIsState}/>}
-                    {this.state.isLayout ? <Layout textBtn={this.state.isTextBtn}/> : null}
+                    {this.state.isLayout ? <Layout textBtn={this.state.isTextBtn} onBack={this.onBack}/> : null}
                     {this.state.isMain ? <Main/> : null}
                     
                     

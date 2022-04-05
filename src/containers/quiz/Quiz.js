@@ -41,6 +41,26 @@ class Quiz extends Component {
                     {text: 'Кампромис', id: 3},
                     {text: 'Компрамисс', id: 4}
                 ]
+            },
+            {   question: 'Выбери вариант ответа, где верно выделен ударный звук?',
+                rightAnswerId: 1,
+                id: 4,
+                answers: [
+                    {text: 'облегчИть', id: 1},
+                    {text: 'бантЫ', id: 2},
+                    {text: 'кухОнный', id: 3},
+                    {text: 'ПрОсмотр', id: 4}
+                ]
+            },
+            {   question: 'Укажите слово с буквой И после Ц.?',
+                rightAnswerId: 3,
+                id: 5,
+                answers: [
+                    {text: 'Сестриц…н', id: 1},
+                    {text: 'Стрельц…', id: 2},
+                    {text: 'Традиц…я', id: 3},
+                    {text: 'Танцовщиц…', id: 4}
+                ]
             }
             
         ]
@@ -84,6 +104,26 @@ class Quiz extends Component {
                     {text: 'Евразия', id: 3},
                     {text: 'Африка', id: 4}
                 ]
+            },
+            {   question: 'Сколько всего океанов на нашей планете?',
+                rightAnswerId: 3,
+                id: 4,
+                answers: [
+                    {text: '3 океана', id: 1},
+                    {text: '4 океана', id: 2},
+                    {text: '5 океанов', id: 3},
+                    {text: '6 океанов', id: 4}
+                ]
+            },
+            {   question: 'В какой стране находится город Цинциннати?',
+                rightAnswerId: 3,
+                id: 5,
+                answers: [
+                    {text: 'Италия', id: 1},
+                    {text: 'Испания', id: 2},
+                    {text: 'США', id: 3},
+                    {text: 'Канада', id: 4}
+                ]
             }
             
             ]
@@ -126,6 +166,26 @@ class Quiz extends Component {
                     {text: 'Десять', id: 3},
                     {text: 'Пять', id: 4}
                 ]
+            },
+            {   question: 'Можно ли считать число -7 натуральным?',
+                rightAnswerId: 2,
+                id: 4,
+                answers: [
+                    {text: 'Можно', id: 1},
+                    {text: 'Нельзя', id: 2},
+                    {text: 'Иногда', id: 3},
+                    {text: 'Зависит от ситуации', id: 4}
+                ]
+            },
+            {   question: 'Если поделить число на 0, то получится?',
+                rightAnswerId: 1,
+                id: 5,
+                answers: [
+                    {text: 'На ноль делить нельзя', id: 1},
+                    {text: 'Ноль', id: 2},
+                    {text: 'Один', id: 3},
+                    {text: 'Зависит от ситуации', id: 4}
+                ]
             }
             
             ]
@@ -160,14 +220,34 @@ class Quiz extends Component {
                     {text: 'Муссолини', id: 4}
                 ]
             },
+            {   question: 'Какая церковь существовала во Франции в начале XVI века?',
+                rightAnswerId: 2,
+                id: 3,
+                answers: [
+                    {text: 'Аквитанская', id: 1},
+                    {text: 'Галликанская', id: 2},
+                    {text: 'Парижская', id: 3},
+                    {text: 'Утраквисткая', id: 4}
+                ]
+            },
             {   question: 'Стал генсеком ЦК КПСС после Хрущева?',
                 rightAnswerId: 4,
-                id: 3,
+                id: 4,
                 answers: [
                     {text: 'Андропов', id: 1},
                     {text: 'Сталин', id: 2},
                     {text: 'Черненко', id: 3},
                     {text: 'Брежнев', id: 4}
+                ]
+            },
+            {   question: '. В IХ-ХIII веках столицей Древнерусского государства был город?',
+                rightAnswerId: 4,
+                id: 5,
+                answers: [
+                    {text: 'Нижний Новгород', id: 1},
+                    {text: 'Тверь', id: 2},
+                    {text: 'Киев', id: 3},
+                    {text: 'Москва', id: 4}
                 ]
             }
             
@@ -211,6 +291,26 @@ class Quiz extends Component {
                     {text: 'Белка', id: 2},
                     {text: 'Заяц', id: 3},
                     {text: 'Медведь', id: 4}
+                ]
+            },
+            {   question: 'Как называются непроходимые тропические или субтропические леса?',
+                rightAnswerId: 1,
+                id: 4,
+                answers: [
+                    {text: 'Джунгли', id: 1},
+                    {text: 'Тайга', id: 2},
+                    {text: 'Саванна', id: 3},
+                    {text: 'Тундра', id: 4}
+                ]
+            },
+            {   question: 'Что такое фотосинтез у растений?',
+                rightAnswerId: 2,
+                id: 5,
+                answers: [
+                    {text: 'Способ автотрофного питания', id: 1},
+                    {text: 'Синтез органических веществ из углекислого газа и воды на свету', id: 2},
+                    {text: 'Вегетативное размножение при участии солнечного света', id: 3},
+                    {text: 'Органическое гниение растений', id: 4}
                 ]
             }
             
